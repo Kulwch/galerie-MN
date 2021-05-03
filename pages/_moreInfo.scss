@@ -1,0 +1,24 @@
+.section {
+    @include flex-margin(column);
+    >.info {
+        @include flex-margin(column);
+        &__heading {
+            font-family: 'notcouriersansregular';
+            color: white;
+            text-shadow: 3px 3px 3px black;
+            font-weight: bold;
+        }
+        &__text {
+            font-size: 1.1em;
+            text-shadow: 2px 2px 2px white;
+        }
+    }
+}
+
+.biennale {
+    display: flex;
+    flex-direction: row;
+    &__picture {
+        height: 500px;
+    }
+}

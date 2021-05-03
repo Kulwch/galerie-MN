@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-<html lang="fr-FR">
+<html lang="fr">
 	<head>
 			<title>Galerie Michel Nanquette</title>
 			<meta charset="utf-8" />

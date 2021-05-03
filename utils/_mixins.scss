@@ -4,7 +4,7 @@
     margin: auto;
 }
 
-@mixin flex-justify($dir: row, $justify: space-between, ) {
+@mixin flex-justify($dir: row, $justify: space-between) {
     display: flex;
     flex-direction: $dir;
     justify-content: $justify;
@@ -13,4 +13,13 @@
 @mixin font-shadow {
     color: $black;
     text-shadow: 2px 2px 2px $white;
+}
+
+@mixin heading($font: 'notcouriersansregular', $font-size: 3.5rem) {
+    font-family: $font;
+    font-size: $font-size;
+    text-align: center;
+    @include flex-margin(row);
+    color: #704241;
+    text-shadow: 3px 3px 3px $white;
 }

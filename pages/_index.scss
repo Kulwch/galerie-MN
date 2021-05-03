@@ -1,6 +1,6 @@
 .link {
     height: 400px;
-    width: auto;
+    width: 600px;
     &__picture {
         @include flex-margin(row);
         margin-top: 35px;
@@ -33,7 +33,7 @@
         padding-bottom: 3px;
         text-decoration: none;
         font-family: 'notcouriersansregular';
-        color: $color-secondary;
+        color: $color-primary;
         text-shadow: 1px 1px 1px grey;
     }
 }
