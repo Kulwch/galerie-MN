@@ -1,0 +1,19 @@
+.header {
+    @include flex-margin(column);
+    &__heading {
+        font-family: 'notcouriersansregular';
+        font-size: 3.5em;
+        text-align: center;
+        @include flex-margin(row);
+        color: #674846;
+        text-shadow: 3px 3px 3px $white;
+    }
+    &__subheading {
+        font-family: 'kaushan_scriptregular';
+        font-size: 2.5em;
+        text-align: center;
+        @include flex-margin(row);
+        color: #704241;
+        text-shadow: 3px 3px 3px $white;
+    }
+}

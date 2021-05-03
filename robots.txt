@@ -1,0 +1,5 @@
+# fichier pour les robots du site http://www.michel-nanquette.com/
+User-Agent: *
+Disallow: /bookContent.php
+Allow: /*.css?*
+Sitemap: http://www.michel-nanquette.com/sitemap_index.xml

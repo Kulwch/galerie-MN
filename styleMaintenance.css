@@ -1,0 +1,32 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'notcouriersansregular';
+    src: url('NotCourierSans-webfont.eot');
+    src: url('NotCourierSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('NotCourierSans-webfont.woff2') format('woff2'),
+         url('NotCourierSans-webfont.woff') format('woff'),
+         url('NotCourierSans-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('kaushanscript-regular-webfont.eot');
+    src: url('kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Maintenance Page */
+
+#maintenancePage {
+	background-color: #BFDEF8;
+	background-image: url('https://nsm09.casimages.com/img/2021/01/14//21011411353125627317211123.jpg');
+	background-repeat: repeat;
+	background-size: cover;
+}
+

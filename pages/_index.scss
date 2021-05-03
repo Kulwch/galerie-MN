@@ -1,0 +1,67 @@
+.link {
+    height: 400px;
+    width: auto;
+    &__picture {
+        @include flex-margin(row);
+        margin-top: 35px;
+        border: 8px solid white;
+        border-radius: 5px;
+        box-shadow: 4px 4px 4px black;
+    }
+}
+
+.nav {
+    @include flex-justify(row, space-around);
+    margin-top: 15px;
+    &__list {
+        @include flex-justify;
+    }
+}
+
+.list {
+    margin-right: 15px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    background-color: white;
+    @include flex-justify;
+    padding-left: 3px;
+    padding-right: 3px;
+    &__item {
+        font-size: 1.4em;
+        font-weight: bold;
+        padding-bottom: 3px;
+        text-decoration: none;
+        font-family: 'notcouriersansregular';
+        color: $color-secondary;
+        text-shadow: 1px 1px 1px grey;
+    }
+}
+
+.footer {
+    @include flex-justify(row, space-between);
+    width: 100%;
+    margin-top: -30px;
+    &__version {
+        display: flex;
+        font-weight: bold;
+        color: $black;
+        text-shadow: 2px 2px 2px $white;
+        font-size: 1.2em;
+    }
+}
+
+.copyright {
+    @include flex-margin(column);
+    margin: unset;
+    margin-left: 900px;
+    padding-top: 20px;
+    &__info {
+        @include flex-justify(row, flex-start);
+        align-content: flex-end;
+        font-size: 1.2em;
+        width: 400px;
+        font-weight: bold;
+        @include font-shadow;
+    }
+}

@@ -1,0 +1,16 @@
+@mixin flex-margin($flex-dir: column) {
+    display: flex;
+    flex-direction: $flex-dir;
+    margin: auto;
+}
+
+@mixin flex-justify($dir: row, $justify: space-between, ) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $justify;
+}
+
+@mixin font-shadow {
+    color: $black;
+    text-shadow: 2px 2px 2px $white;
+}
